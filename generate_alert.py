@@ -51,6 +51,7 @@ def generate_alert_sound(filename="data/alert.wav", duration=2.0, frequency=800)
 
 
 if __name__ == "__main__":
+    
     generate_alert_sound()
     print("\nNote: You need scipy to run this script.")
     print("Install with: pip install scipy")
