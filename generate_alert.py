@@ -49,7 +49,7 @@ def generate_alert_sound(filename="data/alert.wav", duration=2.0, frequency=800)
     print(f"Alert sound generated: {filename}")
     print(f"Duration: {duration}s, Frequency: {frequency}Hz")
 
-
+#
 if __name__ == "__main__":
     
     generate_alert_sound()

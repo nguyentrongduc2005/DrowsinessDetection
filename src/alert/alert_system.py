@@ -88,7 +88,7 @@ class AlertSystem:
                 self.stop_alert()
         
         self.current_alert = alert_level
-    
+    #
     def get_alert_level(self) -> AlertLevel:
         """Lấy mức cảnh báo hiện tại"""
         return self.current_alert

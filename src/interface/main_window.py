@@ -349,7 +349,7 @@ Yawns/min: {metrics['yawn_count']}
             self.video_label.setStyleSheet("background-color: black;")
             self.status_label.setText("Stopped")
             self.status_label.setStyleSheet("padding: 20px; background-color: lightgray; border-radius: 5px;")
-    
+    #
     def _reset_learning(self):
         """Reset và học lại từ đầu"""
         reply = QMessageBox.question(
